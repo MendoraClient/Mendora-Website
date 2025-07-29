@@ -1,13 +1,10 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
-
 const nextConfig = {
-  output: "export",
-  // No basePath needed for organization.github.io sites
-  basePath: "",
-  assetPrefix: "",
+  output: 'export', 
+  basePath: '',
+  assetPrefix: '',
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for GitHub Pages
   },
   webpack(config) {
     if (config.optimization.splitChunks) {
