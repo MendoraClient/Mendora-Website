@@ -1,14 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', 
+  output: 'export',
   basePath: '',
   assetPrefix: '',
   images: {
-    unoptimized: true, // Required for GitHub Pages
+    unoptimized: true, // Make sure this is at root level, not under experimental
   },
   webpack(config) {
     if (config.optimization.splitChunks) {
-      config.optimization.splitChunks.maxSize = 20000000; // ~20MB
+      config.optimization.splitChunks.maxSize = 20000000;
     } else {
       config.optimization.splitChunks = {
         chunks: "all",
