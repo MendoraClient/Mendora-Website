@@ -37,7 +37,7 @@ const FaqPage = () => {
   return (
     <>
       <Navbar />
-      <section className="min-h-screen text-white py-16 px-6 max-w-4xl mx-auto font-space-mono">
+      <section className="min-h-screen text-white py-16 px-6 max-w-4xl mx-auto font-space-mono mt-8">
         <h1 className="text-4xl font-bold mb-12 text-center">
           Frequently Asked Questions
         </h1>
