@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "@/components/NavBar";
 import Image from "next/image";
 
 const teamMembers = [
@@ -46,7 +45,6 @@ const teamMembers = [
 export default function AboutPage() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen mt-4 text-white px-6 py-16 max-w-7xl mx-auto font-space-mono">
         {/* Our Story */}
         <section className="mb-20 max-w-4xl mx-auto text-center">

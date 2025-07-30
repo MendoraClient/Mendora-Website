@@ -48,6 +48,7 @@ const Navbar = () => {
               { href: "/faq", label: "FAQ" },
               { href: "/about", label: "About" },
               { href: "/showcase", label: "Showcase" },
+              { href: "/docs", label: "Documentation" },
             ].map((item) => (
               <Button
                 asChild
@@ -69,20 +70,19 @@ const Navbar = () => {
         {/* Mobile Nav */}
         <div className="md:hidden flex items-center justify-between">
           <Link href="/">
-
-          <div className="flex gap-2 items-center">
-            <Image
-              src="/mendora.png"
-              width={36}
-              height={36}
-              alt="Mendora Client Logo"
-              className="w-9 h-9 border border-zinc-800 rounded-md bg-zinc-800"
-              quality={100}
-            />
-            <h1 className="font-zen-dots text-base text-white font-semibold tracking-widest uppercase">
-              Mendora
-            </h1>
-          </div>
+            <div className="flex gap-2 items-center">
+              <Image
+                src="/mendora.png"
+                width={36}
+                height={36}
+                alt="Mendora Client Logo"
+                className="w-9 h-9 border border-zinc-800 rounded-md bg-zinc-800"
+                quality={100}
+              />
+              <h1 className="font-zen-dots text-base text-white font-semibold tracking-widest uppercase">
+                Mendora
+              </h1>
+            </div>
           </Link>
 
           <Button
@@ -103,14 +103,15 @@ const Navbar = () => {
         <div
           className={`
             md:hidden transition-all duration-500 ease-in-out overflow-hidden
-            ${isMenuOpen ? "max-h-44 opacity-100 mt-2" : "max-h-0 opacity-0"}
+            ${isMenuOpen ? "max-h-58 opacity-100 mt-2" : "max-h-0 opacity-0"}
           `}
         >
-          <div className="flex flex-col gap-2 py-2 border-t border-zinc-700 bg-zinc-900/90 rounded-lg shadow">
+          <div className="flex flex-col gap-2  border-t border-zinc-700 bg-zinc-900/90 rounded-lg shadow">
             {[
               { href: "/faq", label: "FAQ" },
               { href: "/about", label: "About" },
               { href: "/showcase", label: "Showcase" },
+              { href: "/docs", label: "Documentation" },
             ].map((item) => (
               <Button
                 key={item.href}

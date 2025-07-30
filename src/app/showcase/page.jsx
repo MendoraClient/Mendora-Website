@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Navbar from "@/components/NavBar";
 import Image from "next/image";
 
 // Screenshot data - replace with your actual screenshots
@@ -122,8 +121,6 @@ export default function ShowcasePage() {
 
   return (
     <>
-      <Navbar />
-
       {/* Background */}
       <div className="fixed inset-0 bg-gradient-to-br from-[#232323] via-[#281a13] to-[#393939] -z-10">
         <div className="absolute inset-0 opacity-5">
