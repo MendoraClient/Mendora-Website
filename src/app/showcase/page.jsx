@@ -86,7 +86,10 @@ const Modal = ({ screenshot, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div className="relative max-w-5xl max-h-[90vh] bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-700">
+      <div
+        className="relative bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-700 flex flex-col"
+        style={{ width: '80vw', height: '80vh', maxWidth: '1280px', maxHeight: '90vh' }}
+      >
         {/* Close button */}
         <button
           onClick={onClose}
@@ -108,19 +111,19 @@ const Modal = ({ screenshot, onClose }) => {
         </button>
 
         {/* Image */}
-        <div className="relative">
+        <div className="flex-1 flex items-center justify-center">
           <Image
             src={screenshot.image}
             alt={screenshot.title}
             width={1200}
-            height={800}
-            className="w-full h-auto max-h-[70vh] object-contain"
+            height={1200}
+            className="w-auto max-w-full max-h-[80vh] object-contain"
             quality={100}
           />
         </div>
 
         {/* Info */}
-        <div className="p-6">
+        <div className="p-6 overflow-y-auto">
           <div className="flex items-center gap-3 mb-3">
             <span className="bg-green-600/20 text-green-300 px-3 py-1 rounded-full text-sm font-mono border border-green-600/30">
               {screenshot.category}
@@ -135,6 +138,7 @@ const Modal = ({ screenshot, onClose }) => {
     </div>
   );
 };
+
 
 export default function ShowcasePage() {
   const [selectedCategory, setSelectedCategory] = useState("All");

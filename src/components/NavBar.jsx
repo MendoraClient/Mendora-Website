@@ -34,7 +34,7 @@ const Navbar = () => {
                 height={48}
                 quality={100}
                 alt="Mendora Client Logo"
-                className="w-10 h-10 sm:w-14 sm:h-14 border border-zinc-800  shadow transition"
+                className="w-10 h-10 sm:w-14 sm:h-14 shadow transition"
               />
               <h1 className="font-zen-dots text-lg sm:text-xl text-white font-semibold tracking-widest uppercase">
                 Mendora
@@ -76,7 +76,7 @@ const Navbar = () => {
                 width={36}
                 height={36}
                 alt="Mendora Client Logo"
-                className="w-9 h-9 border border-zinc-800 rounded-md bg-zinc-800"
+                className="w-9 h-9  rounded-md bg-zinc-800"
                 quality={100}
               />
               <h1 className="font-zen-dots text-base text-white font-semibold tracking-widest uppercase">

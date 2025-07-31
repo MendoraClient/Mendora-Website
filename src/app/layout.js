@@ -64,6 +64,7 @@ const zenDots = Zen_Dots({
  * Metadata And SEO Settings
  */
 export const metadata = {
+  metadataBase: new URL("https://mendora-client.github.io"),
   title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
   description:
     "Mendora Client is a lightweight, Electron.js-based Minecraft launcher designed for low-end computers. Features cracked account support, FPS boost mods, a custom performance resource pack, and more. Enjoy smooth Minecraft gameplay even on modest hardware!",
