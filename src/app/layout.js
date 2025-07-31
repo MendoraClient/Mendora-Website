@@ -147,6 +147,23 @@ export default function RootLayout({ children }) {
         ${zenDots.variable}
       `}
       >
+        {/*
+        Is This Place I Used Code,
+        Is This Place I Coded Here,
+        And Fucked up Writed Down This.......
+        
+
+
+        I AGREEE I COMMITED THIS BEFORE 
+        Lol i know i am just Making Size Of This File Bigger
+
+
+        I love You My Son
+
+        LUNAR HOSTING NEVER DIES
+
+
+        */}
         <Navbar className=" mb-4" />
         <main className="mt-8">{children}</main>
       </body>
