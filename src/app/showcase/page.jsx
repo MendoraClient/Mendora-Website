@@ -44,10 +44,38 @@ const screenshots = [
   },
   {
     id: 6,
+    title: "Server Management",
+    description: "Check Out, Create, Manage Server At One Place!",
+    image: "/showcase/MainServer.png",
+    category: "Features",
+  },
+  {
+    id: 7,
     title: "Resource Pack Manager",
     description: "Seamless resource pack integration and preview",
     image: "/showcase/resource-store.webp",
     category: "Features",
+  },
+  {
+    id: 8,
+    title: "Self-Hosted Servers!",
+    description: "Seamless Self-Hosted Servers integration and preview",
+    image: "/showcase/SelfHost-Server.png",
+    category: "Features",
+  },
+  {
+    id: 9,
+    title: "Self-Hosted Files Management Ui Preview",
+    description: "Edit, Delete, Create .",
+    image: "/showcase/SelfHost-Server-Files.png",
+    category: "Interface",
+  },
+  {
+    id: 10,
+    title: "File Editing Ui",
+    description: "Sample Of File Editing",
+    image: "/showcase/SelfHost-Server-Files-editing.png",
+    category: "Interface",
   },
 ];
 
