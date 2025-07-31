@@ -64,13 +64,15 @@ const zenDots = Zen_Dots({
  * Metadata And SEO Settings
  */
 export const metadata = {
-  metadataBase: new URL("https://mendora-client.github.io"),
+  metadataBase: new URL("https://mendora.qzz.io"),
   title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
   description:
     "Mendora Client is a lightweight, Electron.js-based Minecraft launcher designed for low-end computers. Features cracked account support, FPS boost mods, a custom performance resource pack, and more. Enjoy smooth Minecraft gameplay even on modest hardware!",
   keywords: [
     "Mendora Client",
     "Minecraft Launcher",
+    "Mendora",
+    "Launcher",
     "Low End PC",
     "FPS Boost",
     "Cracked Minecraft",
@@ -80,6 +82,7 @@ export const metadata = {
     "Minecraft Mods",
     "Performance",
     "Gaming",
+    "Free Minecraft",
     "Resource Pack",
     "Electron Launcher",
     "Windows",
@@ -91,7 +94,7 @@ export const metadata = {
     title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
     description:
       "The best way to play Minecraft on low-end hardware! Fast, modern, cracked support, FPS-boosting mods, and resource packs built in.",
-    url: "https://mendora-client.github.io",
+    url: "https://mendora.qzz.io",
     siteName: "Mendora Client",
     images: [
       {
@@ -114,7 +117,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://mendora-client.github.io",
+    canonical: "https://mendora.qzz.io",
   },
 
   icons: [

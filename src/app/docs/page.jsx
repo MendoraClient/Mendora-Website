@@ -50,7 +50,7 @@ const Docs = () => {
                   href="/download"
                   className=" bg-blue-900 my-2 rounded-xl py-1 px-2"
                 >
-                  https://mendora-client.github.io/download
+                  https://mendora.qzz.io/download
                 </Link>{" "}
               </Button>
               And Launcher Installer Will Be Automatically Installed

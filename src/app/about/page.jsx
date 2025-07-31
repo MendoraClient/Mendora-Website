@@ -104,7 +104,7 @@ export default function AboutPage() {
             with other Mendora Client users.
           </p>
           <a
-            href="https://discord.gg/your-discord-invite" // replace with your real Discord invite link
+            href="https://discord.gg/FMQn55V2bK"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-bold uppercase tracking-wide transition-colors"

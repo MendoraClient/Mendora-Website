@@ -49,7 +49,7 @@ export default function HeroSection() {
             </button>
             {/* discord.gg/EnycKnQ98h */}
             <button className="px-2.5 py-1 bg-zinc-900/80 border border-zinc-800 font-mono text-xs rounded hover:bg-blue-400/80 hover:text-green-200 transition">
-              <Link href="https://discord.gg/EnycKnQ98h">Discord Support</Link>
+              <Link href="https://discord.gg/FMQn55V2bK">Discord Support</Link>
             </button>
           </div>
         </div>
