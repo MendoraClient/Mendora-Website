@@ -16,7 +16,7 @@ const faqData = [
   {
     question: "💻 Minimum Requirements",
     answer:
-      "Intel Duo 2 Core, 3GB Ram, Storage: 2GB HDD, OS: Windows 7+ (64-bit) ",
+      "Intel Duo 2 Core, 2GB Ram, Storage: 2GB HDD, OS: Windows 7+ (64-bit) ",
   },
   {
     question: "💻 Recommended Requirements?",
