@@ -17,11 +17,6 @@ const Download = () => {
         const version = response.data.version;
 
         if (version) {
-          // Track download on server side
-          await axios.post("/api/download", {
-            action: "download",
-            version: version,
-          });
 
           const installerUrl = `https://github.com/ma4z-sys/src_mendora/releases/download/assets/Mendora.Launcher.Setup.${version}.exe`;
 
@@ -30,10 +25,12 @@ const Download = () => {
           // Redirect current tab to homepage
           router.replace("/");
         } else {
+          alert("You Got Rare Error")
           router.replace("/");
         }
       } catch (error) {
-        console.error("Error fetching version info:", error);
+        console.error("Error fetching version info:", error)
+        alert("Something Went Wrong!")
         router.replace("/");
       }
     }
