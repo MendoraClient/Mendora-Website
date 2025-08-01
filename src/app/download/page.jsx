@@ -17,20 +17,20 @@ const Download = () => {
         const version = response.data.version;
 
         if (version) {
-
           const installerUrl = `https://github.com/ma4z-sys/src_mendora/releases/download/assets/Mendora.Launcher.Setup.${version}.exe`;
 
           // Open installer in new tab
           window.open(installerUrl, "_blank", "noopener,noreferrer");
+
           // Redirect current tab to homepage
           router.replace("/");
         } else {
-          alert("You Got Rare Error")
+          alert("You Got Rare Error");
           router.replace("/");
         }
       } catch (error) {
-        console.error("Error fetching version info:", error)
-        alert("Something Went Wrong!")
+        console.error("Error fetching version info:", error);
+        alert("Something Went Wrong Please Try Again Later...");
         router.replace("/");
       }
     }
