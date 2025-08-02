@@ -4,42 +4,41 @@ import Image from "next/image";
 
 const teamMembers = [
   {
-    name: "Ma4z",
+    name: "ma4z",
     role: "Creator & Lead Developer",
-    photo: "/team/MA4Z.webp", // replace with actual image paths
-    discord: "Ma5z_",
+    photo: "/team/MA4Z.webp",
+    discord: "ma5z_",
   },
   {
     name: "ItzTha",
-    role: "Mendora Management",
-    photo: "/team/MyBestie.webp", // replace with actual image paths
+    role: "Mendora Admin",
+    photo: "/team/MyBestie.webp", 
     discord: "tha_yt",
   },
   {
     name: "Vspcoderz",
-    role: "Developer",
-    photo: "/team/vspcoderz.jpg", // replace with actual image paths
+    role: "Mendora Developer",
+    photo: "/team/vspcoderz.jpg", 
     discord: "vspcoderz",
   },
   {
     name: "Crater",
-    role: "Community Manager",
+    role: "Lead Developer",
     photo: "/team/crater.webp",
     discord: "craterxo",
   },
   {
     name: "Nehxurai",
-    role: "Discord Moderator",
+    role: "Mendora Moderator",
     photo: "/team/xerin.webp",
     discord: "nehxurai",
   },
   {
     name: "gwidoniusz99",
-    role: "Discord Admin",
+    role: "Mendora Admin",
     photo: "/team/idk.webp",
     discord: "gwidoniusz99",
   },
-  // Add more team members as needed
 ];
 
 export default function AboutPage() {

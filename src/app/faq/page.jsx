@@ -23,7 +23,11 @@ const faqData = [
     answer:
       "CPU: Intel Core i5 / AMD Ryzen 5, RAM: 8 GB+, GPU: GTX 1050 / RX 560 Storage: SSD preferred, OS: Windows 10/11 (64-bit)",
   },
-  // Add more FAQ entries here
+   {
+    question: "Does this really boost the fps?",
+    answer:
+      "Yes, but if ur less than intel i3 3rd generation u might have to do some settings",
+  },
 ];
 
 const FaqPage = () => {
