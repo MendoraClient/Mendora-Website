@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# <img src="/public/mendora.png" height="64" width="64" /> Mendora Client
 
-First, run the development server:
+ Optimized, Modern Minecraft Launcher for Low-End PCs**
+
+## 🚀 What is Mendora Client?
+
+**Mendora Client** is a next-generation Minecraft launcher built with Electron.js, designed to bring smooth, high-FPS gameplay to every computer—even low-end or legacy PCs. With built-in support for both cracked and premium Minecraft accounts, a modern UI, and one-click FPS-boosting mods, Mendora delivers the easiest way to enjoy Minecraft on any system.
+
+## 🎮 Features
+
+- **Electron.js Desktop Launcher:** Lightweight, beautiful UI for Windows, macOS, and Linux.
+- **Low-End Device Optimized:** Every line of code is written with efficiency in mind.
+- **Cracked & Premium Support:** Play as a premium user—or go offline—no limitations.
+- **FPS Boost Mods & Packs:** Includes pre-installed mods (OptiFine, Sodium, performance tweaks) and an official Mendora Performance resource pack.
+- **Mod & Resource Pack Manager:** Easy mod/resource pack installation and management.
+- **Settings for All:** Tweak RAM allocation, JVM arguments, and game settings for your setup.
+- **Real-Time Performance Dashboard:** See your FPS, RAM use, and more live.
+- **Open Source and Actively Developed!**
+
+## 📷 Screenshots
+
+| Launcher Home                  | Settings                   | Mod Manager                  |
+|-------------------------------|---------------------------|-----------------------------|
+| ![Main](/public/showcase/main-interface.webp) | ![Settings](/public/showcase/settings.webp) |  ![ModManager](/public/showcase/mods.webp) |
+
+## 💻 System Requirements
+
+| Requirement      | Details              |
+|------------------|----------------------|
+| OS               | Windows, macOS, Linux|
+| Java             | 21 or later (required)|
+| RAM              | 2GB minimum          |
+| Disk Space       | 1GB minimum          |
+
+> **Java must be installed and in PATH.**
+> ([Get Java](https://www.java.com/download))
+
+## 🛠️ Installation
+
+1. **[Download the latest Mendora Client release](https://mendora-client.github.io/download)**
+2. **Install Java 21+** ([java.com/download](https://www.java.com/download))
+3. **Run the installer** and follow on-screen instructions.
+4. **Launch Mendora Client** from your desktop or applications.
+
+### Sample:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Windows
+java -version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔑 Account Setup
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Cracked/Offline:** Enter any username, play instantly!
+- **Premium:** Log in with your Minecraft/Microsoft credentials.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚡ FPS Boost Guide
 
-## Learn More
+1. Enable built-in FPS mods (OptiFine, Sodium, etc.).
+2. Apply the Mendora Performance Pack in Resource Packs.
+3. In Settings: Set graphics to Fast, turn off Shaders, set Render Distance low.
+4. Max FPS, minimum resource usage—perfect for older systems!
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Troubleshooting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Game won’t launch?** Check that Java is installed and updated.
+- **Still low FPS?** Confirm all FPS mods and the performance pack are enabled.
+- **Game crashes?** Lower RAM allocation or update system drivers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ❓ FAQ
 
-## Deploy on Vercel
+- **Q: Can I use Mendora with a premium (official) account?**  
+  A: Yes! Both cracked and premium accounts are fully supported.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Q: Will Mendora change Minecraft’s graphics?**  
+  A: Only if you enable the included Performance Pack for higher FPS—it uses clean, basic textures by default.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Q: Is Mendora free?**  
+  A: 100%. Mendora Client is Free and always will be.
+
+## 📢 Support & Community
+
+- ❔ Need help? Visit our [FAQ](https://mendora.qzz.io/faq) or join our [Discord community](https://discord.gg/idk).
+- ⭐ Follow us for news & updates!
+
+## 🤝 Credits & Contributors
+
+- **Developers:** Vspcoderz, Ma4z, Crater
+- **Special Thanks:** all Mendora users!
+
+Want to help improve Mendora? PRs and feedback are always welcome!
+
+## 📄 License
+
+MIT
+
+> **Mendora Client** — Optimized for everyone.  
+> _Play Minecraft. Any device. Any time._
