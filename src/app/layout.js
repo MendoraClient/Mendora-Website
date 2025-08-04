@@ -64,7 +64,6 @@ const zenDots = Zen_Dots({
  * Metadata And SEO Settings
  */
 export const metadata = {
-  metadataBase: new URL("https://mendora.qzz.io"),
   title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
   description:
     "Mendora Client is a lightweight, Electron.js-based Minecraft launcher designed for low-end computers. Features cracked account support, FPS boost mods, a custom performance resource pack, and more. Enjoy smooth Minecraft gameplay even on modest hardware!",
@@ -89,7 +88,6 @@ export const metadata = {
     "macOS",
     "Linux",
   ],
-
   openGraph: {
     title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
     description:
@@ -107,7 +105,6 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "Mendora Client – Minecraft Launcher for Low-End Devices",
@@ -115,11 +112,9 @@ export const metadata = {
       "Launch Minecraft fast, even on old PCs. Supports cracked accounts and comes packed with FPS mods and a custom resource pack.",
     images: ["/mendora.png"],
   },
-
   alternates: {
     canonical: "https://mendora.qzz.io",
   },
-
   icons: [
     {
       rel: "icon",
@@ -131,7 +126,6 @@ export const metadata = {
       sizes: "180x180",
     },
   ],
-
   creator: "Mendora Team",
   applicationName: "Mendora Client",
 };
