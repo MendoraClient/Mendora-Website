@@ -69,6 +69,10 @@ export const metadata = {
     "Mendora Client is a fast, lightweight Minecraft launcher with cracked support and FPS mods, optimized for smooth gameplay on low-end PCs.",
   keywords: [
     "Mendora Client",
+    "Mendora Launcher",
+    "Minecraft Cracked",
+    "Best Luancher 2025",
+    "Best Luancher 2026",
     "Minecraft Launcher",
     "Lightweight Launcher",
     "Low-End PC",
