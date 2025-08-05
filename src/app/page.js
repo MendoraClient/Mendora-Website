@@ -1,5 +1,6 @@
 import Navbar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
+import FeaturesSection from "@/components/FeaturesSection";
 
 const Main = () => {
   return (
@@ -8,8 +9,9 @@ const Main = () => {
         <div className="bg-block-grid fixed inset-0 pointer-events-none -z-10" />
 
         <main className="relative z-10">
-          <Navbar />
+
           <HeroSection />
+          <FeaturesSection />
         </main>
       </div>
     </>

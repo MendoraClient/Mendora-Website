@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
@@ -23,32 +23,34 @@ const Docs = () => {
                 <p className="font-space-grotesk mb-4">
                   Please select your Operating System to continue:
                 </p>
-               <div className="flex gap-4 my-6">
-  <Button
-    onClick={() => setSelectedOS("windows")}
-    className={`flex items-center gap-2 px-6 py-3 rounded-xl text-white transition ${
-      selectedOS === "windows" ? "bg-blue-700" : "bg-blue-600 hover:bg-blue-700"
-    }`}
-  >
-    <FaWindows /> Windows
-  </Button>
+                <div className="flex gap-4 my-6">
+                  <Button
+                    onClick={() => setSelectedOS("windows")}
+                    className={`flex items-center gap-2 px-6 py-3 rounded-xl text-white transition ${
+                      selectedOS === "windows"
+                        ? "bg-blue-700"
+                        : "bg-blue-600 hover:bg-blue-700"
+                    }`}
+                  >
+                    <FaWindows /> Windows
+                  </Button>
 
-  <Button
-    onClick={() => setSelectedOS("macos")}
-    className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gray-500 text-white opacity-60 cursor-not-allowed"
-    disabled
-  >
-    <FaApple /> macOS
-  </Button>
+                  <Button
+                    onClick={() => setSelectedOS("macos")}
+                    className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gray-500 text-white opacity-60 cursor-not-allowed"
+                    disabled
+                  >
+                    <FaApple /> macOS
+                  </Button>
 
-  <Button
-    onClick={() => setSelectedOS("linux")}
-    className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gray-500 text-white opacity-60 cursor-not-allowed"
-    disabled
-  >
-    <FaLinux /> Linux
-  </Button>
-</div>
+                  <Button
+                    onClick={() => setSelectedOS("linux")}
+                    className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gray-500 text-white opacity-60 cursor-not-allowed"
+                    disabled
+                  >
+                    <FaLinux /> Linux
+                  </Button>
+                </div>
               </div>
             )}
 
@@ -61,7 +63,9 @@ const Docs = () => {
 
           {selectedOS === "windows" && (
             <section className="docs-topics mt-6">
-              <h1 className="text-4xl font-geo-bold font-kanit my-2">Installation</h1>
+              <h1 className="text-4xl font-geo-bold font-kanit my-2">
+                Installation
+              </h1>
               <Separator className="bg-zinc-600" />
               <p className="font-space-grotesk px-1 py-2 rounded-md">
                 1. Go to{" "}
