@@ -10,7 +10,6 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/NavBar";
-import Head from "next/head";
 
 /**
  *  Fonts Setup
@@ -129,12 +128,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="Pt-FXLAyvYQ2aLXhZ-EgqEK88Ny6MNESNUCMs8EBroE"
-        />
-      </Head>
       <body
         className={`
         ${audiowide.variable} 
