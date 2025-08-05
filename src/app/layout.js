@@ -129,17 +129,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-       <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "Mendora Client",
-              "url": "https://mendora.qzz.io"
-            }),
-          }}
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="Pt-FXLAyvYQ2aLXhZ-EgqEK88Ny6MNESNUCMs8EBroE"
         />
       </Head>
       <body
