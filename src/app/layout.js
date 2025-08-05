@@ -64,42 +64,33 @@ const zenDots = Zen_Dots({
  * Metadata And SEO Settings
  */
 export const metadata = {
-  title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
+  title: "Mendora Client – Lightweight Minecraft Launcher",
   description:
-    "Mendora Client is a lightweight, Electron.js-based Minecraft launcher designed for low-end computers. Features cracked account support, FPS boost mods, a custom performance resource pack, and more. Enjoy smooth Minecraft gameplay even on modest hardware!",
+    "Mendora Client is a fast, lightweight Minecraft launcher with cracked support and FPS mods, optimized for smooth gameplay on low-end PCs.",
   keywords: [
     "Mendora Client",
     "Minecraft Launcher",
-    "Mendora",
-    "Launcher",
-    "Low End PC",
+    "Lightweight Launcher",
+    "Low-End PC",
     "FPS Boost",
     "Cracked Minecraft",
-    "OptiFine",
-    "Sodium",
-    "Java Launcher",
-    "Minecraft Mods",
-    "Performance",
-    "Gaming",
-    "Free Minecraft",
-    "Resource Pack",
     "Electron Launcher",
-    "Windows",
-    "macOS",
-    "Linux",
+    "Performance Mods",
+    "Resource Pack",
+    "Gaming",
   ],
   openGraph: {
-    title: "Mendora Client – Optimized Minecraft Launcher for Low-End PCs",
+    title: "Mendora Client – Lightweight Minecraft Launcher",
     description:
-      "The best way to play Minecraft on low-end hardware! Fast, modern, cracked support, FPS-boosting mods, and resource packs built in.",
+      "Experience smooth Minecraft gameplay on any PC with Mendora Client. Fast, modern launcher with cracked support and FPS-boosting mods built-in.",
     url: "https://mendora.qzz.io",
     siteName: "Mendora Client",
     images: [
       {
-        url: "/mendora.png",
+        url: "https://mendora.qzz.io/mendora.png",
         width: 1200,
         height: 630,
-        alt: "Mendora Client Screenshot",
+        alt: "Mendora Client Logo",
       },
     ],
     locale: "en_US",
@@ -107,10 +98,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mendora Client – Minecraft Launcher for Low-End Devices",
+    title: "Mendora Client – Lightweight Minecraft Launcher",
     description:
-      "Launch Minecraft fast, even on old PCs. Supports cracked accounts and comes packed with FPS mods and a custom resource pack.",
-    images: ["/mendora.png"],
+      "Launch Minecraft fast on low-end PCs. Supports cracked accounts, FPS mods, and includes a custom resource pack.",
+    images: ["https://mendora.qzz.io/mendora.png"],
   },
   alternates: {
     canonical: "https://mendora.qzz.io",

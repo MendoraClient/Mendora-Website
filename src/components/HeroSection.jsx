@@ -31,15 +31,15 @@ export default function HeroSection() {
           {/* Main headline */}
           <Card className="bg-transparent border-0 shadow-none">
             <CardContent className="p-0">
-              <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-2 font-space-mono uppercase tracking-tight drop-shadow-[0_2px_2px_rgba(0,0,0,0.14)]">
+              <h2 className="text-3xl md:text-5xl font-semibold leading-tight mb-2 font-space-mono uppercase tracking-tight drop-shadow-[0_2px_2px_rgba(0,0,0,0.14)]">
                 Are You FPS Lover?
                 <br />
                 Introducing...
                 <br />
-                <span className="font-zen-dots text-green-400 drop-shadow-[0_2px_4px_rgba(30,200,80,0.12)]">
+                <h1 className="font-zen-dots text-green-400 drop-shadow-[0_2px_4px_rgba(30,200,80,0.12)]">
                   Mendora Client
-                </span>
-              </h1>
+                </h1>
+              </h2>
             </CardContent>
           </Card>
           {/* Optional Download buttons */}
