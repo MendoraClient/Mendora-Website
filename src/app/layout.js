@@ -10,6 +10,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/NavBar";
+import Head from "next/head";
 
 /**
  *  Fonts Setup
@@ -128,6 +129,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
+       <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Mendora Client",
+              "url": "https://mendora.qzz.io"
+            }),
+          }}
+        />
+      </Head>
       <body
         className={`
         ${audiowide.variable} 
