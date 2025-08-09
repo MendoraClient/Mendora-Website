@@ -35,9 +35,20 @@ export default function FeaturesSection() {
           aria-hidden="true"
         >
          <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
-  <text x="12" y="10" fill="currentColor" font-size="6" font-family="Arial, sans-serif" font-weight="normal" text-anchor="middle" dominant-baseline="middle" style="letter-spacing: 0.5px;">
-    7 2 6
-  </text>
+        <text
+  x="12"
+  y="10"
+  fill="currentColor"
+  fontSize="6"
+  fontFamily="Arial, sans-serif"
+  fontWeight="normal"
+  textAnchor="middle"
+  dominantBaseline="middle"
+  style={{ letterSpacing: "0.5px" }}
+>
+  7 2 6
+</text>
+
         </svg>
       ),
     },
