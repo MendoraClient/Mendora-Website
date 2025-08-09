@@ -16,11 +16,7 @@ export default function FeaturesSection() {
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M13 10V3L4 14h7v7l9-11h-7z"
-          />
+       <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
         </svg>
       ),
     },
@@ -38,14 +34,10 @@ export default function FeaturesSection() {
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
         >
-          <circle
-            cx="12"
-            cy="12"
-            r="10"
-            stroke="currentColor"
-            strokeWidth="2"
-          />
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2" />
+         <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+  <text x="12" y="10" fill="currentColor" font-size="6" font-family="Arial, sans-serif" font-weight="normal" text-anchor="middle" dominant-baseline="middle" style="letter-spacing: 0.5px;">
+    7 2 6
+  </text>
         </svg>
       ),
     },
@@ -62,12 +54,8 @@ export default function FeaturesSection() {
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M16 7a4 4 0 01-8 0M12 14v7m-7-7h14"
-          />
+        >  
+       <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
         </svg>
       ),
     },
@@ -85,19 +73,14 @@ export default function FeaturesSection() {
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
         >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6" />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M12 9v6m9-3a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 0 1-3-3m3 3a3 3 0 1 0 0 6h13.5a3 3 0 1 0 0-6m-16.5-3a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3m-19.5 0a4.5 4.5 0 0 1 .9-2.7L5.737 5.1a3.375 3.375 0 0 1 2.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 0 1 .9 2.7m0 0a3 3 0 0 1-3 3m0 3h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Zm-3 6h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Z" />
         </svg>
       ),
     },
   ];
 
   return (
-    <section className="bg-zinc-900 py-16 text-white my-8">
+    <section className="bg-transparent py-16 text-white my-8">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-8 text-center font-zen-dots text-blue-400 uppercase tracking-wide">
           Features
