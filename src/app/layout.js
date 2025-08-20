@@ -10,8 +10,6 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/NavBar";
-import Smooooooth from "@/components/Smooooooth";
-
 /**
  *  Fonts Setup
  */
@@ -166,10 +164,8 @@ export default function RootLayout({ children }) {
 
 
         */}
-        <Smooooooth>
-          <Navbar className=" mb-4" />
-          <main className="mt-8">{children}</main>
-        </Smooooooth>
+         <Navbar className=" mb-4" />
+        <main className="mt-8">{children}</main>
       </body>
     </html>
   );

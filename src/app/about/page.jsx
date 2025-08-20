@@ -39,12 +39,6 @@ const teamMembers = [
     photo: "/team/idk.webp",
     discord: "gwidoniusz99",
   },
-  {
-    name: "Sifan",
-    role: "Mendora Moderator",
-    photo: "/team/sifan.png",
-    discord: "._.sifan",
-  },
 ];
 
 export default function AboutPage() {
