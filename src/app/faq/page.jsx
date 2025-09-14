@@ -10,6 +10,11 @@ const faqData = [
       "Mendora Client is an optimized Minecraft launcher designed for low-end PCs to improve FPS and gameplay experience.",
   },
   {
+    question: "Windows Doesnt unrecognized mendora? is it a virus?",
+    answer:
+      "We do not pay a fortune for a Microsoft publisher’s certificate, so windows automatically gives everyone a popup while installing Mendora. If you read the error, it says that Mendora is unrecognized*, not unsafe. To run it, press More Info > Run Anyway.",
+  },
+  {
     question: "Does this support cracked?",
     answer: "✅ Yes, but there is no skins supported Yet.",
   },
