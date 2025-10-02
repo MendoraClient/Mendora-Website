@@ -17,8 +17,8 @@ const teamMembers = [
   },
   {
     name: "Vspcoderz",
-    role: "Website Developer",
-    photo: "/team/vspcoderz.jpg", 
+    role: "Mendora Manager",
+    photo: "/team/logo-main.png", 
     discord: "vspcoderz",
   },
   {
